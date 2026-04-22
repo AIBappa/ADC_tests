@@ -10,6 +10,10 @@
             "includePath": [
                 "C:/Business/Clinical_engineering/ADC_tests/include",
                 "C:/Business/Clinical_engineering/ADC_tests/src",
+                "C:/Business/Clinical_engineering/ADC_tests/.pio/libdeps/nucleo_f767zi/Adafruit ADS1X15",
+                "C:/Business/Clinical_engineering/ADC_tests/.pio/libdeps/nucleo_f767zi/Adafruit BusIO",
+                "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/SPI/src",
+                "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/Wire/src",
                 "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/cores/arduino/avr",
                 "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32",
                 "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/SrcWrapper/inc",
@@ -38,14 +42,12 @@
                 "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/Keyboard/src",
                 "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/Mouse/src",
                 "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/RGB_LED_TLC59731/src",
-                "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/SPI/src",
                 "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/Servo/src",
                 "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/SoftwareSerial/src",
                 "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/SrcWrapper/src",
                 "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/SubGhz/src",
                 "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/USBDevice/src",
                 "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/VirtIO/src",
-                "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/Wire/src",
                 ""
             ],
             "browse": {
@@ -53,6 +55,10 @@
                 "path": [
                     "C:/Business/Clinical_engineering/ADC_tests/include",
                     "C:/Business/Clinical_engineering/ADC_tests/src",
+                    "C:/Business/Clinical_engineering/ADC_tests/.pio/libdeps/nucleo_f767zi/Adafruit ADS1X15",
+                    "C:/Business/Clinical_engineering/ADC_tests/.pio/libdeps/nucleo_f767zi/Adafruit BusIO",
+                    "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/SPI/src",
+                    "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/Wire/src",
                     "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/cores/arduino/avr",
                     "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32",
                     "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/SrcWrapper/inc",
@@ -81,14 +87,12 @@
                     "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/Keyboard/src",
                     "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/Mouse/src",
                     "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/RGB_LED_TLC59731/src",
-                    "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/SPI/src",
                     "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/Servo/src",
                     "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/SoftwareSerial/src",
                     "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/SrcWrapper/src",
                     "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/SubGhz/src",
                     "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/USBDevice/src",
                     "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/VirtIO/src",
-                    "C:/Users/jadha/.platformio/packages/framework-arduinoststm32/libraries/Wire/src",
                     ""
                 ]
             },
