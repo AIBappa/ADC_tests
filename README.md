@@ -16,3 +16,50 @@ Lessons Learnt:
 
 Code:
 main.cpp included in /src folder. It initializes the ADS1115, reads values from it, and prints the results to the serial monitor. All buttons to build, deploy and view the serial monitor have been used from platform IO extension.
+
+---
+
+## Python PC Application (Data Viewer)
+
+A Python desktop application is included in the `/pc_app` directory to acquire, visualize, and export the real-time ADC data from the Nucleo board over Serial.
+
+### Features
+* **Real-time Graphing:** Smooth, 20Hz real-time updates for each selected input using `pyqtgraph`.
+* **Dynamic Panels:** Independent views for each of the 4 inputs.
+* **Zoom Controls:** Ability to precisely zoom into specific time periods and voltage ranges.
+* **Curve Fitting:** Real-time Polynomial fitting (Degree 2 or 3) alongside point-to-point plotting.
+* **Data Export:** Save acquired time and voltage data to CSV format after the acquisition completes.
+
+### Setup and Running
+Ensure you have Python installed on your system (Windows or Linux).
+
+1. Open your terminal or command prompt.
+2. Navigate to the `pc_app` directory:
+   ```bash
+   cd pc_app
+   ```
+3. (Optional but recommended) Create and activate a virtual environment:
+   ```bash
+   python -m venv venv
+   # On Windows:
+   venv\Scripts\activate
+   # On Linux/macOS:
+   source venv/bin/activate
+   ```
+4. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+5. Run the application:
+   ```bash
+   python app.py
+   ```
+
+### Usage Instructions
+1. Flash the Nucleo board with the updated firmware in `src/main.cpp`.
+2. Launch the Python app.
+3. Select the **COM Port** your Nucleo is connected to (click "Refresh" if it isn't listed).
+4. Check the boxes for the inputs (`IN0` to `IN3`) you wish to visualize.
+5. Set the acquisition time (in seconds, up to 10 minutes / 600s).
+6. Click **Acquire**. The graphs will populate dynamically.
+7. Once acquisition completes, you can use the zoom tools, toggle the curve fits, and enter a filename to export the data to a CSV.

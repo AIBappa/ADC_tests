@@ -40,11 +40,12 @@ void loop() {
   float volts2 = ads.computeVolts(adc2);
   float volts3 = ads.computeVolts(adc3);
   
-  Serial.print("AIN0: "); Serial.print(adc0); Serial.print(" ("); Serial.print(volts0, 4); Serial.print("V)\t");
-  Serial.print("AIN1: "); Serial.print(adc1); Serial.print(" ("); Serial.print(volts1, 4); Serial.print("V)\t");
-  Serial.print("AIN2: "); Serial.print(adc2); Serial.print(" ("); Serial.print(volts2, 4); Serial.print("V)\t");
-  Serial.print("AIN3: "); Serial.print(adc3); Serial.print(" ("); Serial.print(volts3, 4); Serial.println("V)");
+  // Output as CSV: V0,V1,V2,V3
+  Serial.print(volts0, 4); Serial.print(",");
+  Serial.print(volts1, 4); Serial.print(",");
+  Serial.print(volts2, 4); Serial.print(",");
+  Serial.println(volts3, 4);
   
   digitalWrite(LED_BUILTIN, LOW);
-  delay(500);
+  delay(50); // 20 Hz sample rate
 }
