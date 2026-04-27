@@ -62,4 +62,4 @@ Ensure you have Python installed on your system (Windows or Linux).
 4. Check the boxes for the inputs (`IN0` to `IN3`) you wish to visualize.
 5. Set the acquisition time (in seconds, up to 10 minutes / 600s).
 6. Click **Acquire**. The graphs will populate dynamically.
-7. Once acquisition completes, you can use the zoom tools, toggle the curve fits, and enter a filename to export the data to a CSV.
+7. Once acquisition completes, you can use the zoom tools, toggle the curve fits, and enter a filename to export the data to a CSV. 
